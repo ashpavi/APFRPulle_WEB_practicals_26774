@@ -1,0 +1,26 @@
+<html>
+<head>
+<title>hello</title>
+<script> 
+function x()
+{
+if(document.t.a.value=="")
+{
+alert=("value missing");
+}
+if((!document.t.gender[0].checked)&&(!document.t.gender[1].checked))
+{
+alert=("please select gender");
+}
+}
+</script>
+</head>
+<body> 
+<form name="T">
+Name:<input type="text" name="a"></br>
+Gender:<input type="radio" name="gender" value="M">Male
+<input type="radio" name="gender" value="F">Female
+<input type="button" name="c" value="click" onClick="x()";>
+</form>
+</body>
+</html>

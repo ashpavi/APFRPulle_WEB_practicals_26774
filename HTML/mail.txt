@@ -1,0 +1,22 @@
+<html>
+<head>
+<title>NSBM</title>
+</head>
+<body>
+<img src="m.jpg" width=200 height=200>
+<h1><center><font face ="arial" color="RED">Manjith Perera</font></h1></center>
+
+<i>126/2A,<br>Negombo Circular Rd,<br>Dankotuwa.</i><br>
+
+
+
+<body background="pink">
+<hr size=10 width= 700 shade>
+<p align="right">I'm Manjith Perea. I'm from Maharagama, I love boys</p>
+<a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox">ashenpavithra@gmail.com</a><br>
+
+
+
+
+</body>
+</html>

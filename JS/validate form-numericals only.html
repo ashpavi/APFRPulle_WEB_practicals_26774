@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+	<title>hello</title>
+	<script>
+		function validateForm() {
+			if (document.t.a.value == "") {
+				alert("Value missing");
+			}
+			if (isNaN(document.t.b.value)) {
+				alert("Only numbers allowed");
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name="t">
+		Name: <input type="text" name="a"><br>
+		Password: <input type="password" name="b"><br>
+		<input type="button" name="s" value="Click" onClick="validateForm();">
+	</form>
+</body>
+</html>

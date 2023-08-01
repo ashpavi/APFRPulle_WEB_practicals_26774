@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+	<title>hello</title>
+	<script>
+		function validateForm() {
+			if (document.t.a.value == "") {
+				alert("Value missing");
+			}
+			if (isNaN(document.t.b.selectedindex==0)) {
+				alert("Not selected");
+			}
+		}
+	</script>
+</head>
+<body>
+	<form name="t">
+		Name: <input type="text" name="a"><br>
+select:
+		<select name="b">
+			<option value="Empty">select</option>
+			<option value="U">UG</option>
+			<option value="P">PG</option>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<html>
+<head>
+<title>hello</title>
+<script> 
+function x()
+{
+if(document.t.a.value=="")
+{
+alert("value missing");
+}
+if(!document.t.select.checked)
+{
+alert("select the checkbox");
+}
+}
+</script>
+</head>
+<body> 
+<form name="t">
+Name:<input type="text" name="a"></br>
+Select:<input type="checkbox" name="select" value="M">Send e-mail
+<input type="button" name="s" value="click" onClick="x()";>
+</form>
+</body>
+</html>
